@@ -1,11 +1,17 @@
 ## Requirements:
 
 1.The rental System should allow customer to browse or reserve available car for a specific date.
+
 2.Each car should have details such as model, year, license plate, seating capacity, rental price per day.
+
 3.The system should handle reservation including creating, modifying, cancellation.
+
 4.The system should keep track of the availability of cars and update the status accordingly.
+
 5.The system should handle customer information , including name, contact info, driving license detail.
+
 6.The system should handle payment processing for reservation.
+
 7.(Optional) The system should be able to handle concurrent reservation and ensure data consisting.
 
 ## Classes:
