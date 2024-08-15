@@ -1,18 +1,41 @@
-## Getting Started
+## Requirements:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1.The rental System should allow customer to browse or reserve available car for a specific date.
+2.Each car should have details such as model, year, license plate, seating capacity, rental price per day.
+3.The system should handle reservation including creating, modifying, cancellation.
+4.The system should keep track of the availability of cars and update the status accordingly.
+5.The system should handle customer information , including name, contact info, driving license detail.
+6.The system should handle payment processing for reservation.
+7.(Optional) The system should be able to handle concurrent reservation and ensure data consisting.
 
-## Folder Structure
+## Classes:
+1.Car
+2.Customer
+3.Reservation
+4.Rental System
+5.Payment
 
-The workspace contains two folders by default, where:
+## Car Class:
+1.Model
+2.Year
+3.licensePlate
+4.RentalPricePerDay
+5.Available
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Customer Class
+1.Name
+2.Contact Number
+3.Driving License Number
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Reservation Class
+1.Reservation id
+2.Car
+3.Customer
+4.Start Date
+5.End Date
+6.Total price
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Payment -> folder -> model
+      payment processor(interface) ->
+          -> CreditCard
+          -> PayPal
