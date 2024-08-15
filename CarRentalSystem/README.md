@@ -16,32 +16,49 @@
 
 ## Classes:
 1.Car
+
 2.Customer
+
 3.Reservation
+
 4.Rental System
+
 5.Payment
 
 ## Car Class:
 1.Model
+
 2.Year
+
 3.licensePlate
+
 4.RentalPricePerDay
+
 5.Available
 
 ## Customer Class
 1.Name
+
 2.Contact Number
+
 3.Driving License Number
 
 ## Reservation Class
 1.Reservation id
+
 2.Car
+
 3.Customer
+
 4.Start Date
+
 5.End Date
+
 6.Total price
 
 ## Payment -> folder -> model
+
       payment processor(interface) ->
+      
           -> CreditCard
           -> PayPal
